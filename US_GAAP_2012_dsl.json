@@ -1,0 +1,28 @@
+{
+  "name": "US GAAP 2012",
+  "xsd": "http://xbrl.fasb.org/us-gaap/2012/elts/us-gaap-2012-01-31.xsd",
+  "ns": "http://fasb.org/us-gaap/2012-01-31",
+  "entry_points": {"CI": "http://foo.com", "IM": "http://bar.com" },
+  "unit_templates": ["http://www.xbrl.org/2003/iso4217", "http://www.xbrl.org/2009/utr"],
+  "unit_data_types": ["xbrli:monetaryItemType","xbrli:purItemType"],
+  "documentation_linkbase_url": "http://xbrl.fasb.org/us-gaap/2012/elts/us-gaap-doc-2012-01-31.xml",
+  "dei_documentation_linkbase_url": "http://xbrl.sec.gov/dei/2012/dei-doc-2012-01-31.xml",
+  "change_label_role": "http://fasb.org/us-gaap/role/label/changeLabel2012",
+  "definition_sub_types": [
+    {"0": "Statement Details or DEI"}, 
+    {"1": "Level 1 (note blocks)"}, 
+    {"2": "Level 2 (policies)"}, 
+    {"3": "Level 3 (tables)"}, 
+    {"4": "Level 4 (details)"}
+    {"5": "Parentheticals"}
+  ],
+  "label_role_refs" : [
+    ["http://www.xbrl.org/lrr/role/net-2009-12-16.xsd#netLabel","http://www.xbrl.org/2009/role/netLabel"],
+    ["http://www.xbrl.org/lrr/role/net-2009-12-16.xsd#negatedLabel","http://www.xbrl.org/2009/role/negatedLabel"],
+    ["http://www.xbrl.org/lrr/role/net-2009-12-16.xsd#negatedTotalLabel","http://www.xbrl.org/2009/role/negatedTotalLabel"],
+    ["http://www.xbrl.org/lrr/role/net-2009-12-16.xsd#negatedPeriodStartLabel","http://www.xbrl.org/2009/role/negatedPeriodStartLabel"],
+    ["http://www.xbrl.org/lrr/role/net-2009-12-16.xsd#negatedPeriodEndLabel","http://www.xbrl.org/2009/role/negatedPeriodEndLabel"],
+    ["http://www.xbrl.org/lrr/role/net-2009-12-16.xsd#negatedTerseLabel","http://www.xbrl.org/2009/role/negatedTerseLabel"],
+    ["http://www.xbrl.org/lrr/role/net-2009-12-16.xsd#negatedNetLabel","http://www.xbrl.org/2009/role/negatedNetLabel"]
+  ],
+}
