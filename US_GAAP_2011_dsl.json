@@ -1,6 +1,6 @@
 {
   "name": "US GAAP 2011",
-  "xsd": "http://xbrl.fasb.org/us-gaap/2012/elts/us-gaap-2012-01-31.xsd",
+  "xsd": "http://xbrl.fasb.org/us-gaap/2011/elts/us-gaap-2011-01-31.xsd",
   "ns": "http://fasb.org/us-gaap/2011-01-31",
   "entry_points": {"CI": "http://foo.com", "IM": "http://bar.com" },
   "unit_templates": ["http://www.xbrl.org/2003/iso4217", "http://www.xbrl.org/2009/utr"],
@@ -13,7 +13,7 @@
     {"1": "Level 1 (note blocks)"}, 
     {"2": "Level 2 (policies)"}, 
     {"3": "Level 3 (tables)"}, 
-    {"4": "Level 4 (details)"}
+    {"4": "Level 4 (details)"},
     {"5": "Parentheticals"}
   ],
   "label_role_refs" : [
@@ -24,5 +24,5 @@
     ["http://www.xbrl.org/lrr/role/net-2009-12-16.xsd#negatedPeriodEndLabel","http://www.xbrl.org/2009/role/negatedPeriodEndLabel"],
     ["http://www.xbrl.org/lrr/role/net-2009-12-16.xsd#negatedTerseLabel","http://www.xbrl.org/2009/role/negatedTerseLabel"],
     ["http://www.xbrl.org/lrr/role/net-2009-12-16.xsd#negatedNetLabel","http://www.xbrl.org/2009/role/negatedNetLabel"]
-  ],
+  ]
 }
