@@ -4,7 +4,6 @@
   "ns": "http://fasb.org/us-gaap/2012-01-31",
   "entry_points": {"CI": "http://foo.com", "IM": "http://bar.com" },
   "unit_templates": ["http://www.xbrl.org/2003/iso4217", "http://www.xbrl.org/2009/utr"],
-  "unit_data_types": ["xbrli:monetaryItemType","xbrli:purItemType"],
   "documentation_linkbase_url": "http://xbrl.fasb.org/us-gaap/2012/elts/us-gaap-doc-2012-01-31.xml",
   "dei_documentation_linkbase_url": "http://xbrl.sec.gov/dei/2012/dei-doc-2012-01-31.xml",
   "change_label_role": "http://fasb.org/us-gaap/role/label/changeLabel2012",
@@ -24,5 +23,28 @@
     ["http://www.xbrl.org/lrr/role/net-2009-12-16.xsd#negatedPeriodEndLabel","http://www.xbrl.org/2009/role/negatedPeriodEndLabel"],
     ["http://www.xbrl.org/lrr/role/net-2009-12-16.xsd#negatedTerseLabel","http://www.xbrl.org/2009/role/negatedTerseLabel"],
     ["http://www.xbrl.org/lrr/role/net-2009-12-16.xsd#negatedNetLabel","http://www.xbrl.org/2009/role/negatedNetLabel"]
+  ],
+  "domain_item_type" : "nonnum:domainItemType",
+  "unit_data_types" : [
+    "num:areaItemType",
+    "num:energyItemType",
+    "num:lengthItemType", 
+    "num:massItemType", 
+    "num:memoryItemType", 
+    "num:powerItemType",
+    "num:volumeItemType", 
+    "xbrli:monetaryItemType", 
+    "xbrli:pureItemType", 
+    "xbrli:decimalItemType",
+    "xbrli:integerItemType"
+  ],
+  "extract_schema_attributes": [],
+  "ref_element_attributes": [
+    ["{http://fasb.org/legacy-part/2012-01-31}LegacyDoc", "legacyDoc"],
+    ["{http://fasb.org/codification-part/2012-01-31}Topic", "topic"],
+    ["{http://fasb.org/codification-part/2012-01-31}SubTopic", "subtopic"],
+    ["{http://fasb.org/codification-part/2012-01-31}Glossary", "glossary"],
+    ["{http://fasb.org/codification-part/2012-01-31}URI", "codificationUri"]
   ]
+
 }
